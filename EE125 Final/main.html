@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E125 Final</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("ethics.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">E125</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#case" class="w3-bar-item w3-button"><i class="fa fa-book"></i> CASE STUDIES</a>
+      <a href="#resources" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap"></i> RESOURCES</a>
+      <a href="#community" class="w3-bar-item w3-button"><i class="fa fa-users"></i> COMMUNITY</a>
+    </div>
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Ethics in Technology</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Ethics in Technology</span><br>
+    <span class="w3-large">Navigating Technology for the Common Good</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">MISSION STATEMENT</h3>
+  <p class="w3-center w3-large">Promoting ethical practices in technology by providing resources, tools, and case studies to empower responsible innovation</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <i class="fa fa-book w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Case Studies</p>
+      <p>This section examines key ethical dilemmas in technology, analyzing their impact and the lessons they provide for future innovators.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-graduation-cap w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Educational Resources</p>
+      <p>This section explores resources and programs designed to deepen your understanding of ethics in technology.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-users w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Community Engagement</p>
+      <p>This section provides tools and opportunities for fostering meaningful conversations and actions within your community.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-container" style="padding:0px 16px" id="case">
+  <h3 class="w3-center">CASE STUDIES</h3>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="cambridge.jpg" alt=cambridge" style="width:100%">
+        <div class="w3-container">
+          <h3>Facebook-Cambridge Analytica Scandal</h3>
+          <p class="w3-opacity"> This scandal involved Facebook allowing the data of millions of users to be harvested by Cambridge Analytica without their consent, 
+            which was used for targeted political advertising</p>
+          <p>The key ethical concerns were about user consent, privacy violations, and the potential for using data to manipulate political opinions without transparency. 
+            The scandal exposed vulnerabilities in how personal data was handled by third-party companies.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="amazon.jpg" alt="amazon" style="width:100%">
+        <div class="w3-container">
+          <h3>Amazon's Rekognition</h3>
+          <p class="w3-opacity">Amazon developed a facial recognition technology called Rekognition, which was marketed to law enforcement agencies. 
+            A study found that Rekognition misidentified people of color at a higher rate than white people, particularly in law enforcement applications.</p>
+          <p>The ethical questions here involve privacy rights, racial bias leading to possible misuse by authorities, and whether companies should provide technology to law enforcement without adequate safeguards.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="tesla.jpg" alt="tesla" style="width:100%">
+        <div class="w3-container">
+          <h3>Tesla's Autopilot</h3>
+          <p class="w3-opacity">Tesla’s Autopilot feature has been linked to several accidents, some fatal, where the system failed to detect obstacles or the driver did not take control in time.
+             Despite these incidents, Tesla continued to market Autopilot as a feature that could improve safety and reduce driver workload. </p>
+          <p>The ethical question revolves around whether Tesla was being transparent enough about the capabilities and limitations of its Autopilot system. 
+            Misleading marketing could encourage drivers to overestimate the technology’s autonomy and trust it in unsafe situations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="google.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Google's Project Dragonfly</h3>
+          <p class="w3-opacity">Google was working on a censored search engine for China, known as Project Dragonfly, which would comply with the Chinese government's strict censorship policies. 
+            This raised concerns about human rights and free speech, as Google would be enabling censorship of information that did not align with the Chinese government's views.</p>
+          <p>The ethical debate centered on whether Google's desire to expand into the Chinese market justified compromising on its values regarding privacy, freedom of information, and human rights.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="resources">
+  <h3 class="w3-center" style = "padding:32px">EDUCATIONAL RESOURCES</h3>
+  <article>
+      <h4>Guides on Ethical Frameworks</h4>
+      <ul>
+          <li><a href="https://www.ieee.org/about/corporate/governance/p7-8.html" target="_blank">IEEE Code of Ethics</a>: A comprehensive guide for engineers focusing on public safety, integrity, and transparency.</li>
+          <li><a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics</a>: A framework for computing professionals emphasizing fairness, honesty, and respect for privacy.</li>
+      </ul>
+  </article>
+  <article>
+    <h4>Online Certification Programs</h4>
+    <ul>
+        <li><a href="https://www.coursera.org/learn/ethics-technology-engineering" target="_blank">Ethics, Technology and Engineering</a>: 
+            Self-paced course hosted by Coursera that discusses the broader ethical and social implications of engineering.</li>
+        <li><a href="https://www.edx.org/learn/artificial-intelligence/ibm-generative-ai-impact-issues-and-ethical-concerns" target="_blank">Impact, Ethics, and Issues with Generative AI</a>: 
+            EdX course that explores the socioeconomic impacts of generative AI and related issues such as job and copyright implications.</li>
+    </ul>
+</article>
+
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<!-- Work Section -->
+<div class="w3-container" style="padding-bottom: 128px" id="community">
+    <h3 class="w3-center">COMMUNITY ENGAGEMENT</h3>
+    <p class="w3-center">Placeholder for discussion board</p>
+    
+  </div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
